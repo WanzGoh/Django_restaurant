@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'foods', #may 28 2021 - daniel
     'menus', #may 30 2021 - daniel
+    'travel',#may 31 2021- daniel
 ]
 
 MIDDLEWARE = [

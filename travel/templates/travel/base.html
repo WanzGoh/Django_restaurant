@@ -1,0 +1,23 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Website</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href={% static 'travel/css/styles.css' %}>
+</head>
+<body>
+    <img id="logo" src={% static 'travel/images/logo.png' %} width="165" height="58">
+    
+    <div id="menu">
+      <a href="/travel/">Home</a>
+      <a href="/travel/seoul/">Seoul</a>
+      <a href="/travel/tokyo/">Tokyo</a>
+      <a href="/travel/paris/">Paris</a>
+    </div>
+    {% block photo %}
+      <img id="photo" src={% static 'travel/images/index.png' %} width="90%">
+     {% endblock photo %}
+</body>
+</html>
