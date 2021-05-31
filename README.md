@@ -1,1 +1,1 @@
-# django_restauant
+# django_restaurant
