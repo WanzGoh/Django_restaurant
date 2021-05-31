@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'foods', #new app this is main page may 28 2021 - daniel
-
+    'foods', #may 28 2021 - daniel
+    'menus', #may 30 2021 - daniel
 ]
 
 MIDDLEWARE = [
